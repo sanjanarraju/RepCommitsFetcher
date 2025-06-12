@@ -1,7 +1,7 @@
 import requests
 
 # Configuration
-GITHUB_TOKEN = 'Your_Github_Token'
+GITHUB_TOKEN = 'your_personal_access_token'
 HEADERS = {'Authorization': f'token {GITHUB_TOKEN}'}
 COMMITS_PER_REPO = 5  # Number of recent commits to fetch per repository
 
